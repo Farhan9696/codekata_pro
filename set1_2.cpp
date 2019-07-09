@@ -45,12 +45,9 @@ string buildLowestNumber(string str, int n)
   
 int main() 
 { 
-    string str; 
-    int n;
-    cout<< "Enter a String";
-    getline(cin,str);
-    cout<<"Enter Number";
-    cin>>n;
+    string str="222"; 
+    int n=2;
+    
     cout << buildLowestNumber(str, n); 
     return 0; 
 } 
